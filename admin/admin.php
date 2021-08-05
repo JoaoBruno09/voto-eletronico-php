@@ -86,10 +86,10 @@ function send_email_recoverpw() {
                 $mail = new PHPMailer;
 
                 $mail->isSMTP();
-                $mail->Host = 'voto-eletronico.jbr-projects.pt';
+                $mail->Host = 'yourhost';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'geral@voto-eletronico.jbr-projects.pt';
-                $mail->Password = 'voto_hj12345';
+                $mail->Username = 'yourusername';
+                $mail->Password = 'yourpassword';
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
 
